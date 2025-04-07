@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>gallery</title>
+  <link rel="stylesheet" href="C:\Users\cesca\OneDrive\Documents\coding\css file\style.css">
+<link rel="icon" type="image/x-icon" href="C:\Users\cesca\Downloads\favicon.ico">
+  <meta name="description" content="Francesca Taiganides' Website">
+  <meta name="keywords" content="Francesca, Taiganides, artist, Greek-American, design">
+  <meta name="author" content="Francesca Taiganides">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<video autoplay loop muted plays-inline class="back-video">
+  <source src="C:\Users\cesca\OneDrive\Documents\coding\images\water.mp4" type="video/mp4">
+  </video>
+
+ <nav>
+   <a href="C:\Users\cesca\OneDrive\Documents\coding\example docs\indexforvidbackground.htm">
+    <img src="C:\Users\cesca\OneDrive\Pictures\bones.png" class="logo">
+   </a>
+<ul>
+   <li><a href="C:\Users\cesca\OneDrive\Documents\coding\example docs\indexforvidbackground.htm">home</a></li>
+   <li><a href="C:\Users\cesca\OneDrive\Documents\coding\example docs\indexpastprojectspage.htm">past projects</a></li>
+   <li><a href="C:\Users\cesca\OneDrive\Documents\coding\example docs\indexgallerypage.htm">gallery</a></li>
+   <li><a href="C:\Users\cesca\OneDrive\Documents\coding\example docs\indexcontact.htm">contact</a></li>  
+</ul>
+</nav>
+  <div class="container">
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\meliadesign.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\meliapostcard1.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\melia2.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\notaigalbum.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\djnotaig.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\tiles.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\madleinmenu.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\herocover1.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\carvingprint.png"></div>
+    <!-- <div class="swiper-slide"><video autoplay loop muted class="swiper slide video"> <source src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\phixboard4.mp4" type="video/mp4"></video></div> -->
+    <div class="swiper-slide"><a href="C:\Users\cesca\OneDrive\Documents\coding\example docs\indexphixboard.htm"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\phix2.png"></a></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\mycenean.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\eliabnw.png"></div>
+    <div class="swiper-slide"><img src="C:\Users\cesca\OneDrive\Documents\coding\example docs\images\shotsign.png"></div>
+  </div>
+  <div class="swiper-pagination" style="color:#fff;"></div>
+
+  <div class="swiper-button-prev" style="color:#fff;"></div>
+  <div class="swiper-button-next" style="color:#fff;"></div>
+</div>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+},
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+});
+
+</script>
+</body>
+</html>
