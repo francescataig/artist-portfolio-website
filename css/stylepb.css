@@ -31,6 +31,17 @@ nav .logo{
   width: 80px;
 }
 
+.favicon-nav {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
 nav ul li{
   list-style: none;
   display: inline-block;
