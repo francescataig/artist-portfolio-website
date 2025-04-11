@@ -21,7 +21,7 @@ nav{
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px; 8%;
+  padding: 20px 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,7 +51,7 @@ nav ul li{
  font-size: 12px;
  font-family: 'Poppins', sans-serif;
 }
-  
+
 
 nav ul li a{
   text-decoration: none;
@@ -63,7 +63,7 @@ nav ul li a{
   width: 100%;
   height: 100vh;
   padding: 0 3%;
-  background: "back-video";
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,26 +80,31 @@ nav ul li a{
   .back-video{
    width: 100%;
    height: auto;
+  }
 }
+
 @media (max-aspect-ratio: 16/9){
   .back-video{
    width: auto;
    height: 100%;
+  }
 }
 
-.swiper slide video{
+.swiper-slide video{
   width: 50px;
   object-fit: contain;
 }
-  @media (min-aspect-ratio: 16/9){
-  .swiper slide video{
-  width: 100%;
-  height: auto;
+@media (min-aspect-ratio: 16/9){
+  .swiper-slide video{
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-aspect-ratio: 16/9){
-  .swiper slide video{
-  width: auto;
-  height: 100%;
+  .swiper-slide video{
+    width: auto;
+    height: 100%;
+  }
 }
 
