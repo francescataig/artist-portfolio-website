@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <meta name="description" content="Francesca Taiganides' Website">
+  <meta name="keywords" content="Francesca, Taiganides, artist, Greek-American, design">
+  <meta name="author" content="Francesca Taiganides">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<video autoplay loop muted plays-inline class="back-video">
+  <source src="images/water.mp4" type="video/mp4">
+  </video>
+
+ <nav>
+   <a href="index.html">
+    <img src="images/bones.png" class="logo">
+   </a>
+<ul>
+   <li><a href="index.html">home</a></li>
+   <li><a href="indexpastprojectspage.html">past projects</a></li>
+   <li><a href="indexgallerypage.html">gallery</a></li>
+   <li><a href="indexcontact.html">contact</a></li>
+</ul>
+</nav>
+  <div class="container">
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/meliadesign.png"></div>
+    <div class="swiper-slide"><img src="images/meliapostcard1.png"></div>
+    <div class="swiper-slide"><img src="images/melia2.png"></div>
+    <div class="swiper-slide"><img src="images/notaigalbum.png"></div>
+    <div class="swiper-slide"><img src="images/djnotaig.png"></div>
+    <div class="swiper-slide"><img src="images/tiles.png"></div>
+    <div class="swiper-slide"><img src="images/madleinmenu.png"></div>
+    <div class="swiper-slide"><img src="images/herocover1.png"></div>
+    <div class="swiper-slide"><img src="images/carvingprint.png"></div>
+    <!-- <div class="swiper-slide"><video autoplay loop muted class="swiper slide video"> <source src="images/phixboard4.mp4" type="video/mp4"></video></div> -->
+    <div class="swiper-slide"><a href="indexphixboard.html"><img src="images/phix2.png"></a></div>
+    <div class="swiper-slide"><img src="images/mycenean.png"></div>
+    <div class="swiper-slide"><img src="images/eliabnw.png"></div>
+    <div class="swiper-slide"><img src="images/shotsign.png"></div>
+  </div>
+  <div class="swiper-pagination" style="color:#fff;"></div>
+
+  <div class="swiper-button-prev" style="color:#fff;"></div>
+  <div class="swiper-button-next" style="color:#fff;"></div>
+</div>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+},
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+</body>
+</html>
