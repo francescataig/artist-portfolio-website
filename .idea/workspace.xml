@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Adding custom domain" />
+    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Adding custom domain">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +76,7 @@
       <workItem from="1744419727848" duration="2728000" />
       <workItem from="1744425672474" duration="461000" />
       <workItem from="1744479516040" duration="3000" />
-      <workItem from="1744479622122" duration="2011000" />
+      <workItem from="1744479622122" duration="2770000" />
     </task>
     <task id="LOCAL-00001" summary="Added photos and videos">
       <option name="closed" value="true" />
