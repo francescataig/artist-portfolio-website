@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Fixed background color, font size, and capitalization" />
+    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Added sentence to past projects page, and link to contact page">
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +77,7 @@
       <workItem from="1744419727848" duration="2728000" />
       <workItem from="1744425672474" duration="461000" />
       <workItem from="1744479516040" duration="3000" />
-      <workItem from="1744479622122" duration="10334000" />
+      <workItem from="1744479622122" duration="10825000" />
     </task>
     <task id="LOCAL-00001" summary="Added photos and videos">
       <option name="closed" value="true" />
@@ -189,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744489969950</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added sentence to past projects page, and link to contact page">
+      <option name="closed" value="true" />
+      <created>1744491368452</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744491368452</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +220,7 @@
     <MESSAGE value="Changed base dir" />
     <MESSAGE value="Polishing" />
     <MESSAGE value="Fixed background color, font size, and capitalization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed background color, font size, and capitalization" />
+    <MESSAGE value="Added sentence to past projects page, and link to contact page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sentence to past projects page, and link to contact page" />
   </component>
 </project>
