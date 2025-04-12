@@ -74,12 +74,12 @@ const Gallery = () => {
               onLoad={handleImageLoad}
               onError={handleImageError}
             />
-            <p className="text-white text-sm font-light mt-2 opacity-70 text-center">
+            <p className="text-white text-xs md:text-sm font-light mt-2 opacity-70 text-center">
               Artwork {currentImageIndex + 1} of {images.length} - Click anywhere for next
             </p>
           </div>
         ) : (
-          <p className="text-white text-xl font-light opacity-70 animate-pulse">
+          <p className="text-white text-base font-light opacity-70 animate-pulse">
             Click anywhere to reveal artwork
           </p>
         )}

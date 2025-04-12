@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Changed base dir">
-      <change afterPath="$PROJECT_DIR$/public/bones.png" afterDir="false" />
+    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Fixed background color, font size, and capitalization">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gallery.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1744419727848" duration="2728000" />
       <workItem from="1744425672474" duration="461000" />
       <workItem from="1744479516040" duration="3000" />
-      <workItem from="1744479622122" duration="6016000" />
+      <workItem from="1744479622122" duration="9040000" />
     </task>
     <task id="LOCAL-00001" summary="Added photos and videos">
       <option name="closed" value="true" />
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744482594327</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Polishing">
+      <option name="closed" value="true" />
+      <created>1744485935147</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744485935147</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +212,8 @@
     <MESSAGE value="Added the correct base to file path" />
     <MESSAGE value="Adding custom domain" />
     <MESSAGE value="Changed base dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed base dir" />
+    <MESSAGE value="Polishing" />
+    <MESSAGE value="Fixed background color, font size, and capitalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed background color, font size, and capitalization" />
   </component>
 </project>

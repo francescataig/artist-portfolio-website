@@ -70,7 +70,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(176, 224, 230, 0.4); /* Powder blue with 60% opacity */
+  background-color: rgba(12, 3, 51, 0.3); /* Dark indigo/purple with 30% opacity */
   z-index: -1;
 }
 
@@ -92,6 +92,7 @@
   opacity: 0;
   animation: fade-in 0.8s ease-in forwards;
   animation-delay: 0.3s;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Home page specific styling for bottom positioning */

@@ -38,16 +38,16 @@ const Navbar = () => {
           </Link>
           <div className="space-x-8">
             <NavLink to="/" active={location.pathname === "/"}>
-              Home
+              home
             </NavLink>
             <NavLink to="/projects" active={location.pathname === "/projects"}>
-              Past Projects
+              past projects
             </NavLink>
             <NavLink to="/gallery" active={location.pathname === "/gallery"}>
-              Gallery
+              gallery
             </NavLink>
             <NavLink to="/contact" active={location.pathname === "/contact"}>
-              Contact
+              contact
             </NavLink>
           </div>
         </div>

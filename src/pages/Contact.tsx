@@ -12,7 +12,8 @@ const Contact = () => {
     >
       <div className="home-bottom-content flex flex-col items-center w-full">
         <div className="text-center mb-8">
-          <p className="text-xl font-light">
+          <h3 className="text-base md:text-lg font-light mb-2">contact</h3>
+          <p className="text-xs md:text-sm font-light">
             Chat with me about ideas{' '}
             <a
               href="mailto:ftaiganides@outlook.com"
