@@ -1,7 +1,7 @@
 
 import Layout from '@/components/Layout';
 
-const homeVideo = '/artist-portfolio-website/videos/home-background.mp4';
+const homeVideo = '/videos/home-background.mp4';
 
 const Home = () => {
   return (

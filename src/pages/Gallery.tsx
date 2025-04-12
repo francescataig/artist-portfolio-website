@@ -3,23 +3,23 @@ import { useState, useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 // Video path for gallery background
-const galleryVideo = '/artist-portfolio-website/videos/gallery-background.mp4';
+const galleryVideo = '/videos/gallery-background.mp4';
 
 // Actual images from your public/images folder
 const images = [
-  '/artist-portfolio-website/images/meliadesign.png',
-  '/artist-portfolio-website/images/meliapostcard1.png',
-  '/artist-portfolio-website/images/melia2.png',
-  '/artist-portfolio-website/images/notaigalbum.png',
-  '/artist-portfolio-website/images/djnotaig.png',
-  '/artist-portfolio-website/images/tiles.png',
-  '/artist-portfolio-website/images/madleinmenu.png',
-  '/artist-portfolio-website/images/herocover1.png',
-  '/artist-portfolio-website/images/carvingprint.png',
-  '/artist-portfolio-website/images/phix2.png',
-  '/artist-portfolio-website/images/mycenean.png',
-  '/artist-portfolio-website/images/eliabnw.png',
-  '/artist-portfolio-website/images/shotsign.png',
+  '/images/meliadesign.png',
+  '/images/meliapostcard1.png',
+  '/images/melia2.png',
+  '/images/notaigalbum.png',
+  '/images/djnotaig.png',
+  '/images/tiles.png',
+  '/images/madleinmenu.png',
+  '/images/herocover1.png',
+  '/images/carvingprint.png',
+  '/images/phix2.png',
+  '/images/mycenean.png',
+  '/images/eliabnw.png',
+  '/images/shotsign.png',
 ];
 
 const Gallery = () => {
