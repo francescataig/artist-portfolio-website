@@ -59,10 +59,12 @@ const Gallery = () => {
 
   return (
     <Layout videoSrc={galleryVideo}>
+      {/* Make the entire page clickable by applying onClick to a div that fills the entire layout */}
       <div
-        className="gallery-container h-full w-full flex items-center justify-center cursor-pointer"
+        className="absolute inset-0 cursor-pointer z-10"
         onClick={handleGalleryClick}
-      >
+      ></div>
+      <div className="gallery-container h-full w-full flex items-center justify-center pointer-events-none">
         {currentImageIndex !== null ? (
           <div className="max-w-4xl mx-auto transition-all duration-500 ease-in-out">
             <img
@@ -73,7 +75,7 @@ const Gallery = () => {
               onError={handleImageError}
             />
             <p className="text-white text-sm font-light mt-2 opacity-70 text-center">
-              Artwork {currentImageIndex + 1} of {images.length} - Click for next
+              Artwork {currentImageIndex + 1} of {images.length} - Click anywhere for next
             </p>
           </div>
         ) : (

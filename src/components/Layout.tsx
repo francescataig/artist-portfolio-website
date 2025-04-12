@@ -5,11 +5,13 @@ import Navbar from './Navbar';
 interface LayoutProps {
   children: ReactNode;
   videoSrc: string;
+  className?: string;
+  contentClassName?: string;
 }
 
-const Layout = ({ children, videoSrc }: LayoutProps) => {
+const Layout = ({ children, videoSrc, className = '', contentClassName = '' }: LayoutProps) => {
   return (
-    <div className="content-container">
+    <div className={`content-container ${className}`}>
       <video
         autoPlay
         muted
@@ -21,7 +23,7 @@ const Layout = ({ children, videoSrc }: LayoutProps) => {
         Your browser does not support the video tag.
       </video>
       <Navbar />
-      <main className="page-content mt-20 text-white">
+      <main className={`page-content mt-20 text-white h-[calc(100vh-80px)] ${contentClassName}`}>
         {children}
       </main>
     </div>

@@ -6,13 +6,16 @@ const contactVideo = '/videos/contact-background.mp4';
 
 const Contact = () => {
   return (
-    <Layout videoSrc={contactVideo}>
-      <div className="flex flex-col items-center justify-center">
-        <div className="text-center">
+    <Layout
+      videoSrc={contactVideo}
+      contentClassName="flex items-center justify-end"
+    >
+      <div className="home-bottom-content flex flex-col items-center w-full">
+        <div className="text-center mb-8">
           <p className="text-xl font-light">
             Chat with me about ideas{' '}
-            <a 
-              href="mailto:ftaiganides@outlook.com" 
+            <a
+              href="mailto:ftaiganides@outlook.com"
               className="underline hover:opacity-70 transition-opacity"
             >
               here

@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Adding custom domain">
+    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Changed base dir">
+      <change afterPath="$PROJECT_DIR$/public/bones.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uipko\WebstormProjects\artist-portfolio-website\public" />
       <recent name="C:\Users\uipko\WebstormProjects\francesca-taiganides\public\images" />
       <recent name="C:\Users\uipko\WebstormProjects\francesca-taiganides\public" />
       <recent name="C:\Users\uipko\WebstormProjects\francesca-taiganides\public\videos" />
@@ -76,7 +87,7 @@
       <workItem from="1744419727848" duration="2728000" />
       <workItem from="1744425672474" duration="461000" />
       <workItem from="1744479516040" duration="3000" />
-      <workItem from="1744479622122" duration="2770000" />
+      <workItem from="1744479622122" duration="6016000" />
     </task>
     <task id="LOCAL-00001" summary="Added photos and videos">
       <option name="closed" value="true" />
@@ -166,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744481636729</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changed base dir">
+      <option name="closed" value="true" />
+      <created>1744482594327</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744482594327</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +203,7 @@
     <MESSAGE value="Fixed file path to photos and videos" />
     <MESSAGE value="Added the correct base to file path" />
     <MESSAGE value="Adding custom domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding custom domain" />
+    <MESSAGE value="Changed base dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed base dir" />
   </component>
 </project>

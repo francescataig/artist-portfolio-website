@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -58,8 +59,19 @@
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -1;
+  z-index: -2; /* Changed from -1 to -2 to be behind the overlay */
   object-fit: cover;
+}
+
+.content-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(176, 224, 230, 0.4); /* Powder blue with 60% opacity */
+  z-index: -1;
 }
 
 .content-container {
@@ -76,11 +88,20 @@
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
   opacity: 0;
   animation: fade-in 0.8s ease-in forwards;
   animation-delay: 0.3s;
+}
+
+/* Home page specific styling for bottom positioning */
+.home-bottom-content {
+  min-height: calc(100vh - 120px); /* Account for navbar and padding */
+  margin-top: auto; /* Push content to bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 2rem; /* Space from bottom */
 }
 
 .transparent-navbar {
@@ -97,9 +118,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100%;
   width: 100%;
-  cursor: pointer;
 }
 
 .gallery-image {
