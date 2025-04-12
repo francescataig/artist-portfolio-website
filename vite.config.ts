@@ -3,11 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Base path - change this to '/' if deploying to the root domain
-  // or '/your-repo-name/' if deploying to a subdirectory
-  base: './',
+  base: '/artist-portfolio-website/',
   server: {
     host: "::",
     port: 8080,
