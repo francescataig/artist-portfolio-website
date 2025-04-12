@@ -1,6 +1,0 @@
-
-Place your video files here, named:
-- home-background.mp4
-- projects-background.mp4
-- gallery-background.mp4
-- contact-background.mp4
