@@ -2,7 +2,7 @@
 import Layout from '@/components/Layout';
 
 // Using a placeholder video path - you'll need to replace this with your actual video
-const contactVideo = '/videos/contact-background.mp4';
+const contactVideo = '/artist-portfolio-website/videos/contact-background.mp4';
 
 const Contact = () => {
   return (

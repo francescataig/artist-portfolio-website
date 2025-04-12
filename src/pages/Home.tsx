@@ -1,8 +1,7 @@
 
 import Layout from '@/components/Layout';
 
-// Using a placeholder video path - you'll need to replace this with your actual video
-const homeVideo = '/videos/home-background.mp4';
+const homeVideo = '/artist-portfolio-website/videos/home-background.mp4';
 
 const Home = () => {
   return (
