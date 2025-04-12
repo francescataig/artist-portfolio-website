@@ -3,23 +3,23 @@ import { useState, useEffect } from 'react';
 import Layout from '@/components/Layout';
 
 // Video path for gallery background
-const galleryVideo = '/videos/gallery-background.mp4';
+const galleryVideo = 'public/videos/gallery-background.mp4';
 
 // Actual images from your public/images folder
 const images = [
-  '/images/meliadesign.png',
-  '/images/meliapostcard1.png',
-  '/images/melia2.png',
-  '/images/notaigalbum.png',
-  '/images/djnotaig.png',
-  '/images/tiles.png',
-  '/images/madleinmenu.png',
-  '/images/herocover1.png',
-  '/images/carvingprint.png',
-  '/images/phix2.png',
-  '/images/mycenean.png',
-  '/images/eliabnw.png',
-  '/images/shotsign.png',
+  'public/images/meliadesign.png',
+  'public/images/meliapostcard1.png',
+  'public/images/melia2.png',
+  'public/images/notaigalbum.png',
+  'public/images/djnotaig.png',
+  'public/images/tiles.png',
+  'public/images/madleinmenu.png',
+  'public/images/herocover1.png',
+  'public/images/carvingprint.png',
+  'public/images/phix2.png',
+  'public/images/mycenean.png',
+  'public/images/eliabnw.png',
+  'public/images/shotsign.png',
 ];
 
 const Gallery = () => {
