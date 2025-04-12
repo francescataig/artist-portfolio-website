@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0190ccfe-f7cf-4c40-8a38-07801421a841" name="Changes" comment="Trying to fix errors with Github Actions" />
+    <list default="true" id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="Added photos and videos">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,40 +19,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "stikkeruip"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stikkeruip&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/francescataig/artist-portfolio-website.git",
-    "accountId": "8c92e888-529b-4495-b0cb-0af4bf07a907"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stikkeruip/francesca-taiganides.git&quot;,
+    &quot;accountId&quot;: &quot;8c92e888-529b-4495-b0cb-0af4bf07a907&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="2vbsS8zKHAiSoYy8yhPt6cAxVCd" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2vbhYHU5Ehj7DzTQKkcl6i9EaRJ" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uipko\WebstormProjects\francesca-taiganides\public\images" />
+      <recent name="C:\Users\uipko\WebstormProjects\francesca-taiganides\public" />
+      <recent name="C:\Users\uipko\WebstormProjects\francesca-taiganides\public\videos" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -54,20 +71,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0190ccfe-f7cf-4c40-8a38-07801421a841" name="Changes" comment="" />
-      <created>1744425104717</created>
+      <changelist id="330b89c7-d858-433c-868b-4ebeddb2876a" name="Changes" comment="" />
+      <created>1744419726780</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744425104717</updated>
-      <workItem from="1744425106366" duration="361000" />
+      <updated>1744419726780</updated>
+      <workItem from="1744419727848" duration="2728000" />
+      <workItem from="1744425672474" duration="461000" />
+      <workItem from="1744479516040" duration="3000" />
     </task>
-    <task id="LOCAL-00001" summary="Trying to fix errors with Github Actions">
+    <task id="LOCAL-00001" summary="Added photos and videos">
       <option name="closed" value="true" />
-      <created>1744425458112</created>
+      <created>1744420427243</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1744425458112</updated>
+      <updated>1744420427243</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -76,8 +95,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added placeholder.txt" />
-    <MESSAGE value="Trying to fix errors with Github Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix errors with Github Actions" />
+    <MESSAGE value="Added photos and videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added photos and videos" />
   </component>
 </project>
