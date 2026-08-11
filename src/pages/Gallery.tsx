@@ -5,39 +5,33 @@ import Layout from '@/components/Layout';
 // Video path for gallery background
 const galleryVideo = '/videos/gallery-background.mp4';
 
-// Actual images from your public/images folder
-const images = [
-  '/images/meliadesign.png',
-  '/images/meliapostcard1.png',
-  '/images/melia2.png',
-  '/images/notaigalbum.png',
-  '/images/djnotaig.png',
-  '/images/tiles.png',
-  '/images/madleinmenu.png',
-  '/images/herocover1.png',
-  '/images/carvingprint.png',
-  '/images/phix2.png',
-  '/images/mycenean.png',
-  '/images/eliabnw.png',
-  '/images/shotsign.png',
-];
+// Every image inside src/assets/gallery is picked up automatically when the site
+// is built, so adding artwork is just a matter of uploading a file to that folder.
+// Images are shown in filename order — the numeric prefixes control the sequence.
+const images = Object.entries(
+  import.meta.glob<string>(
+    '../assets/gallery/*.{png,PNG,jpg,JPG,jpeg,JPEG,webp,WEBP,avif,AVIF}',
+    { eager: true, query: '?url', import: 'default' }
+  )
+)
+  .sort(([pathA], [pathB]) => pathA.localeCompare(pathB, undefined, { numeric: true }))
+  .map(([, url]) => url);
 
 const Gallery = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(null);
   const [imageLoaded, setImageLoaded] = useState(false);
 
-  // Debug: Log when component mounts
+  // Preload only the upcoming image instead of the whole gallery, so clicking
+  // through stays instant however many artworks are in the folder.
   useEffect(() => {
-    console.log('Gallery component mounted');
-    // Preload images
-    images.forEach((src) => {
-      const img = new Image();
-      img.src = src;
-    });
-  }, []);
+    if (images.length === 0) return;
+    const nextIndex = currentImageIndex === null ? 0 : (currentImageIndex + 1) % images.length;
+    const img = new Image();
+    img.src = images[nextIndex];
+  }, [currentImageIndex]);
 
   const handleGalleryClick = () => {
-    console.log('Gallery clicked, current index:', currentImageIndex);
+    if (images.length === 0) return;
     if (currentImageIndex === null) {
       setCurrentImageIndex(0);
       setImageLoaded(false);
